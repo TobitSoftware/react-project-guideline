@@ -511,7 +511,7 @@ const locationMapClasses = clsx(
 
 ### Extract Commonly Used Utilities
 
-Never export utility functions from a component file. Create a seperate file for
+Never export utility functions from a component file. Create a separate file for
 utility functions if they are used in multiple locations.
 
 Extract big utility functions, even if only used in one component.
