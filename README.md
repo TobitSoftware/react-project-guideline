@@ -111,7 +111,7 @@ To determine where to use Error Boundaries, think about if the surrounding
 components would still function and make sense, if your component would unmount.
 Some examples of this:
 
-1. **2 Column Layout**
+1. **Two Column Layout**
 
     Must have an Error Boundary around each of the columns. If one of the
     columns crashes the other one could still be used normally.
