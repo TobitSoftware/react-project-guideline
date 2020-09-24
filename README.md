@@ -626,7 +626,7 @@ following configuration in your `package.json`-file:
 
 > To format files right in your editor, check out the
 > [Prettier editor integrations page](https://prettier.io/docs/en/editors.html)
-> page or the [Webstorm guide](https://prettier.io/docs/en/webstorm.html), if
+> or the [Webstorm guide](https://prettier.io/docs/en/webstorm.html), if
 > you are using that.
 
 > Using the same code formatter important for clean Git diffs. Read
