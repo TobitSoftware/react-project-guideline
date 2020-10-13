@@ -545,7 +545,9 @@ export default getDate;
 
 ### Use Keywords for File Names
 
-Name the files according to the topic of the contained functions. This way several functions can be implemented together in one file without needing a new file for each function. This makes it easier to find functions more quickly.
+Name utility files according to the topic of the contained functions so multiple
+functions can live next to each other without the need to create a new file per
+function. This makes utilities easier to find.
 
 ```bash
 src
@@ -557,10 +559,10 @@ src
     └───getWindowHeight.js  // bad
 ```
 
-The `viewport.js` file can for example look like this:
+A `viewport.js` file could look like this:
 
 ```jsx
-// With function declaration
+// As a function declaration
 export function getWindowHeight() {
     // ...
 }
@@ -569,7 +571,7 @@ export function getScrollPosition() {
     // ...
 }
 
-// With constant declaration
+// Or as an arrow function
 export const getWindowHeight = () => {
     // ...
 };
@@ -663,8 +665,8 @@ following configuration in your `package.json`-file:
 
 > To format files right in your editor, check out the
 > [Prettier editor integrations page](https://prettier.io/docs/en/editors.html)
-> or the [Webstorm guide](https://prettier.io/docs/en/webstorm.html), if
-> you are using that.
+> or the [Webstorm guide](https://prettier.io/docs/en/webstorm.html), if you are
+> using that.
 
 > Using the same code formatter important for clean Git diffs. Read
 > [this](https://prettier.io/docs/en/why-prettier.html) for more information on
