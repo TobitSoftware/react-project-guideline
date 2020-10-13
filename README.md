@@ -41,6 +41,7 @@ that, we also have an
 -   [Utilities](#utilities)
     -   [Extract Commonly Used Utilities](#extract-commonly-used-utilities)
     -   [Do Not Export Utilities as `default`](#do-not-export-utilities-as-default)
+    -   [Use Keywords for File Names](#use-keywords-for-file-names)
 -   [Other](#other)
     -   [Use Tree-Shaking for `chayns-components`](#use-tree-shaking-for-chayns-components)
 -   [Naming conventions](#naming-conventions)
@@ -540,6 +541,42 @@ function getDate() {
 }
 
 export default getDate;
+```
+
+### Use Keywords for File Names
+
+Name the files according to the topic of the contained functions. This way several functions can be implemented together in one file without needing a new file for each function. This makes it easier to find functions more quickly.
+
+```bash
+src
+└───utils
+    ├───logger.js           // good
+    ├───initializeLogger.js // bad
+    │   ...
+    ├───viewport.js         // good
+    └───getWindowHeight.js  // bad
+```
+
+The `viewport.js` file can for example look like this:
+
+```jsx
+// With function declaration
+export function getWindowHeight() {
+    // ...
+}
+
+export function getScrollPosition() {
+    // ...
+}
+
+// With constant declaration
+export const getWindowHeight = () => {
+    // ...
+};
+
+export const getScrollPosition = () => {
+    // ...
+};
 ```
 
 ## Other
