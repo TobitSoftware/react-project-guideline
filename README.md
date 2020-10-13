@@ -11,7 +11,7 @@
 
 Most topics in this guide go beyond what can be statically analyzed ESLint. For
 that, we also have an
-[ESLint-configuration coming soon](https://github.com/TobitSoftware/chayns-toolkit#eslint-configuration).
+[ESLint-configuration](https://github.com/TobitSoftware/chayns-toolkit#eslint-configuration).
 
 ## Overview
 
