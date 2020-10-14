@@ -378,9 +378,9 @@ And a project directory structure should look like this:
 ```bash
 src
 ├───api
-│	└───todos
-│			get.js
-│			post.js
+│   └───todos
+│           get.js
+│           post.js
 ├───components
 │   │   App.jsx
 │   ├───headline
@@ -388,18 +388,18 @@ src
 │   └───todos
 │       │   Todos.jsx
 │       └───todo
-│       		Todo.jsx
-│       		todo.scss
+│               Todo.jsx
+│               todo.scss
 ├───constants
-│		config.js
+│       config.js
 ├───redux-modules
-│	└───todos
-│			todosActions.js
-│			todosSelectors.js
-│   		todosSlice.js
-│			todosTransforms.js
+│   └───todos
+│           todosActions.js
+│           todosSelectors.js
+│           todosSlice.js
+│           todosTransforms.js
 └───utils
-		date.js
+        date.js
 ```
 
 > The `redux-modules` directory should only exist if
