@@ -351,7 +351,7 @@ components
 └───user
 ```
 
-A directory structure should look like this:
+A `components` directory structure should look like this:
 
 ```bash
 src
@@ -372,6 +372,39 @@ src
         └───todos-headline
                 TodosHeadline.jsx
 ```
+
+A project directory structure should look like this:
+
+```bash
+src
+├───api
+│	└───todos
+│			get.js
+│			post.js
+├───components
+│   │   App.jsx
+│   ├───headline
+│   │       Headline.jsx
+│   └───todos
+│       │   Todos.jsx
+│       └───todo
+│       		Todo.jsx
+│       		todo.scss
+├───constants
+│		config.js
+├───redux-modules
+│	└───todos
+│			todosActions.js
+│			todosSelectors.js
+│   		todosSlice.js
+│			todosTransforms.js
+└───utils
+		date.js
+```
+
+> The `redux-modules` directory should only exist if [`redux toolkit`](https://redux-toolkit.js.org/)
+> is used in project. Check [Use Redux Toolkit for Complex State](#use-redux-toolkit-for-complex-state)
+> section for more information.
 
 ## State Management
 
