@@ -373,7 +373,7 @@ src
                 TodosHeadline.jsx
 ```
 
-A project directory structure should look like this:
+And a project directory structure should look like this:
 
 ```bash
 src
@@ -402,8 +402,10 @@ src
 		date.js
 ```
 
-> The `redux-modules` directory should only exist if [`redux toolkit`](https://redux-toolkit.js.org/)
-> is used in project. Check [Use Redux Toolkit for Complex State](#use-redux-toolkit-for-complex-state)
+> The `redux-modules` directory should only exist if
+> [`redux toolkit`](https://redux-toolkit.js.org/) is used in the project. Check
+> out the
+> "[Use Redux Toolkit for Complex State](#use-redux-toolkit-for-complex-state)"
 > section for more information.
 
 ## State Management
