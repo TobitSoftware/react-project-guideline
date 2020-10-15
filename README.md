@@ -392,6 +392,8 @@ src
 │               todo.scss
 ├───constants
 │       config.js
+│       shapes.js
+│       types.js
 ├───redux-modules
 │   └───todos
 │           todosActions.js
@@ -401,6 +403,10 @@ src
 └───utils
         date.js
 ```
+
+> Constant values of a project should be declared in files separated by topic
+> within the `constants` folder. These can then be easily identified as constants
+> within the project due to the [naming conventions](#naming-conventions).
 
 > The `redux-modules` directory should only exist if
 > [`redux toolkit`](https://redux-toolkit.js.org/) is used in the project. Check
