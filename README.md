@@ -396,10 +396,10 @@ src
 │       types.js
 ├───redux-modules
 │   └───todos
-│           todosActions.js
-│           todosSelectors.js
-│           todosSlice.js
-│           todosTransforms.js
+│           actions.js
+│           selectors.js
+│           slice.js
+│           transforms.js
 └───utils
         date.js
 ```
